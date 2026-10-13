@@ -1,0 +1,10 @@
+name: "get_joke"
+description: "隨機講一個好笑的冷笑話"
+template_format: "semantic-kernel"
+template: |
+  請為用戶隨機講一個幽默、冷門且好笑的冷笑話。
+  不要說任何廢話，直接輸出笑話內容。
+execution_settings:
+  default:
+    temperature: 0.7
+    max_tokens: 200
